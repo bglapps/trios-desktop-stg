@@ -1,7 +1,7 @@
 on:
   push:
     tags:
-      - 'v1*'
+      - 'v*'
 jobs:
   examplejob:
     runs-on: ubuntu-latest
